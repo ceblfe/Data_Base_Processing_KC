@@ -29,7 +29,7 @@ This file contains the following files with scala extension:
  * ListaTresMejores.scala
  * MediasConsumosBatch.scala
 
-Every Scala file explain a part of every problem that we want to solve in the file interstelar.pdf
+Every Scala file has a code to explain a part of every problem that we want to solve in the file interstelar.pdf
 
 ## 3. interstelar.pdf
 
