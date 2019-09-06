@@ -33,17 +33,17 @@ Every Scala file has a code to explain a part of every problem that we want to s
 
 ## 3. interstelar.pdf
 
-This file contains all the ask that we are going to answer some questions:
+This file contains all the questions that we will use to answer some questions:
 
 Batch processing (to solve these questions we are using Spark SQL):
 
 * Intake of data stored for years by navigation systems spacecrafts and docking ports (mode batch): we answer this question with the file MediasConsumosBatch.scala
-* Data cleanig: we answer this question with the file MediasConsumosBatch.scala
-* Calculation of means of comsumption of all the spacecrafts of the fleet grouped by spacecraft (every spacecraft has an identifier):we answer this question with the file MediasConsumosBatch.scala 
+* Data cleaning: we answer this question with the file MediasConsumosBatch.scala
+* Calculation of means of consumption of all the spacecrafts of the fleet grouped by spacecraft (every spacecraft has an identifier):we answer this question with the file MediasConsumosBatch.scala 
 
 Streaming process (to solve these questions we are using Spark Streamining and a Kafka machine): 
 
-* Real time comsumption data (Spark Streaming): we answer this question with the file KafkaConsumoMedio.scala 
+* Real time consumption data (Spark Streaming): we answer this question with the file KafkaConsumoMedio.scala 
 * Calculation of means of consumption of all the spacecrafts of the fleet grouped by spacecraft (every spacecraft has an identifier) obtained in real time: we answer this question with the file KafkaConsumoMedio.scala
 * Process on both datasets obtaining the difference between average consumption: we answer this question with the file KafkaDifConsumo.scala
 * Obtaining a collection (List) of tuple elements (identification spacecraft and model) with the three best transports: we answer this question with the file ListaTresMejores.scala
